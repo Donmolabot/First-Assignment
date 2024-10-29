@@ -32,7 +32,7 @@ a {
 
 .heroSection {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url(/img/img_5terre.jpg);
+    url(./img/img_5terre.jpg);
   background-size: cover;
   height: 90vh;
   display: flex;
@@ -66,8 +66,7 @@ a {
 
 .about,
 .contact,
-.testimonial,
-.images {
+.testimonial {
   padding: 70px;
   margin-bottom: 50px;
 }
@@ -193,7 +192,7 @@ article {
 }
 
 .form {
-  border: 1px solid black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,7 +201,6 @@ article {
   height: 100%;
   padding: 5px 10px;
   border-radius: 10px;
-  border-color: goldenrod;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -229,7 +227,6 @@ label {
   /* width: 50%; */
   /* height: 45px; */
   background: rgb(45, 17, 184);
-  border: none;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-size: 16px;
@@ -292,7 +289,6 @@ label {
 .images h6 {
   text-align: center;
   font-size: 30px;
-  /* margin-bottom: 20px; */
 }
 
 .images {
@@ -322,7 +318,7 @@ label {
 /* ...............................Social Handles..................................... */
 
 footer {
-  height: 90vh;
+  height: 40vh;
   background-color: rgb(3, 25, 3);
   padding: 0px 10px;
   font-family: monospace;
@@ -332,7 +328,6 @@ footer p {
   text-align: center;
   margin-top: 5px;
   color: white;
-  height: 10vh;
 }
 
 .social {
